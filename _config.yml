@@ -1,0 +1,15 @@
+timezone: Europe/Berlin
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "indiana-cayman-default"
+  -
+    scope:
+      path: "projects"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "indiana-cayman-default" # overrides previous default layout
+      author: "Andrei Miclaus"
