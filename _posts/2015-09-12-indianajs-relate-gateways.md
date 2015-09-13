@@ -11,7 +11,7 @@ Now Let's dig in!
 
 First, let's see what we are building:
 
-<img src="/img/relate-gateways/app-image.png" alt="app image" style="width: 200px; display:block; margin: auto;"/>
+<img src="{{site.baseurl}}/img/relate-gateways/app-image.png" alt="app image" style="width: 200px; display:block; margin: auto;"/>
 
 {% highlight js linenos %}
 var x
