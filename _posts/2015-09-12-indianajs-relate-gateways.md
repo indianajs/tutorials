@@ -14,11 +14,18 @@ First, let's see what we are building:
 
 <img src="{{site.baseurl}}/img/relate-gateways/app-image.png" alt="app image" style="width: 200px; display:block; margin: auto;"/>
 
+Enabling spatial awareness when working with <span class='indiana-logo'>IndianaJS</span> is quite simple and straightforward because the library takes care of most tasks:
+
 {% highlight js linenos %}
-var x
-var y
+EXAMPLE CODE
 {% endhighlight %}
 
+All you need is a website annotated with some semantic tags such as the [Kitchen website] and a way to present the information. In this tutorial we will create RELATE-Gateways.
+
+<img src="{{site.baseurl}}/img/relate-gateways/app-image.png" alt="app image" style="width: 200px; display:block; margin: auto;"/>
+
+
+[Kitchen website]: XXX
 
 For code highlighting:
 https://github.com/mojombo/tpw/tree/master/css/syntax.css

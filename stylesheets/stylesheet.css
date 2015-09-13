@@ -1,15 +1,17 @@
+---
+---
 * {
   box-sizing: border-box; }
 
  /*font: http://www.dafont.com/adventure.font*/
 @font-face {
 font-family: Adventure;
-src: url("../fonts/adventurefont/Adventure.otf") format("opentype");
+src: url("{{ site.baseurl }}/fonts/adventurefont/Adventure.otf") format("opentype");
 }
 
 @font-face {
 font-family: AdventureHollow;
-src: url("../fonts/adventurefont/Adventure Hollow.otf") format("opentype");
+src: url("{{ site.baseurl }}/fonts/adventurefont/Adventure Hollow.otf") format("opentype");
 }
 
 body {
