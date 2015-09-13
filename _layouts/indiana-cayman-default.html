@@ -23,11 +23,14 @@
         <h1 class="indiana-logo">
 <a id="title" class="anchor" href="#indianajs"><span class="octicon octicon-link"></span></a>{{page.title}}</h1>
 
+{% if page.type == "post" %}
 <p class="button-bar">
 <a href="{{ page.repository }}" class="btn">View on GitHub</a>
 <a href="{{ page.repository }}/zipball/master" class="btn">Download .zip</a>
 <a href="{{ page.repository }}/tarball/master" class="btn">Download .tar.gz</a>
 </p>
+{% endif %}
+
 {{ content }}
 
 <h3>
