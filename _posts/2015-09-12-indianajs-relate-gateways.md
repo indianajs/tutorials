@@ -3,6 +3,7 @@ author: "Alexandru Miclaus"
 title: Implementing RELATE-Gateways with IndianaJS
 tags: IndianaJS, RELATE-Gateways, SVG, Spatial Awareness
 repository: https://github.com/indianajs/relate-gateways
+downloadable: yes
 ---
 
 In this tutorial we will be implementing a classic spatial aware application, the RELATE-Gateways, using IndianaJS. We will discuss all important aspects here, but if you want more information on the the RELATE-Gateways check out the research paper [here](http://link.springer.com/article/10.1007/s00779-008-0206-3). 
