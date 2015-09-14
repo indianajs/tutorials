@@ -1,5 +1,6 @@
 timezone: Europe/Berlin
 baseurl: /tutorials
+highlighter: pygments
 defaults:
   -
     scope:

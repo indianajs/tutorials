@@ -1,5 +1,6 @@
 ---
 ---
+/* YAML front matter included for resolution of baseurl */
 * {
   box-sizing: border-box; }
 
@@ -102,6 +103,12 @@ border-color: black;
   margin-bottom: 0.1rem; 
  -webkit-filter: drop-shadow(6px 6px 2px #ffc107);
   filter: drop-shadow(6px 6px 2px #ffc107);
+}
+
+span.indiana-logo{
+  font-size: 1.5em; 
+  -webkit-filter: none;
+  filter: none;
 }
 
 @media screen and (min-width: 64em) {
@@ -277,7 +284,7 @@ border-color: black;
 
 
 h1{
-  /*font-family: Adenvture;*/
+  /*font-family: Adventure;*/
   color: rgba(255, 193,7,1);
 }
 
@@ -291,4 +298,17 @@ h1{
   flex-direction: row;
   justify-content: center;*/
   font-size: 0.8rem;
+}
+
+#pinDemoHtml{
+  display: flex;
+  flex-direction: horizontal;
+}
+
+#pinDemoHtml > div{
+  width: 60%;
+}
+
+#pindemo{
+
 }
