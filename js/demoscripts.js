@@ -10,3 +10,7 @@ function startPinRotationDemo() {
     if (i > 360) i = 0;
   }, 50);
 }
+
+function stopPinRotationDemo() {
+  clearInterval(rotationAnimation);
+}

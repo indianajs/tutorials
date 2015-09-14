@@ -302,13 +302,14 @@ h1{
 
 #pinDemoHtml{
   display: flex;
+  display: -webkit-box; /* for ye old safari */
   flex-direction: horizontal;
 }
 
-#pinDemoHtml > div{
-  width: 60%;
+#pinDemoHtml > :first-child{
+  width: 70%;
 }
 
 #pindemo{
-
+  width: 30%;
 }

@@ -4,7 +4,7 @@ title: Implementing RELATE-Gateways with IndianaJS
 tags: IndianaJS, RELATE-Gateways, SVG, Spatial Awareness
 repository: https://github.com/indianajs/relate-gateways
 downloadable: yes
-styles: <link rel="stylesheet" type="text/css" href=" https://raw.githubusercontent.com/indianajs/relate-gateways/master/css/relate-gateways.css" media="screen">
+<!-- styles: <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/indianajs/relate-gateways/master/css/relate-gateways.css" media="screen"> -->
 ---
 
 In this tutorial we will be implementing a classic spatial aware application, the RELATE-Gateways, using IndianaJS. We will discuss all important aspects here, but if you want more information on the the RELATE-Gateways check out the research paper [here](http://link.springer.com/article/10.1007/s00779-008-0206-3). 
@@ -80,6 +80,8 @@ function startPinRotationDemo() {
 {% endhighlight %}
 
 Check it out and play with it on [Codepen Flower Pin](http://codepen.io/indianajs/pen/ojbZYv).
+
+Ok, so now we know how to create our RELATE-Gateways. Next, let's position them at the edge of the screen!
 
 [Kitchen website]: XXX
 
